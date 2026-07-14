@@ -1,0 +1,10 @@
+[package]
+name = "gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slint = "1.17.1"
+galea_core = { package = "galea-core", path = "../galea-core" }
+pipeline = {path = "../pipeline"}
+media = {path = "../media"}
